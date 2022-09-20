@@ -1,0 +1,206 @@
+@media screen and (max-width: 1260px) {
+    /********************** Header Section *********************/
+  
+    body {
+      overflow-x: hidden;
+    }
+  
+    header {
+      grid-template-columns: 1fr;
+      width: 100vw;
+    }
+  
+    .logo {
+      width: 100px;
+    }
+  
+    .nav-item,
+    .nav-item-active {
+      display: none;
+    }
+  
+    .menu {
+      display: inline-block;
+    }
+  
+    h2 {
+      font-size: 36px;
+      text-align: center;
+    }
+    .header-text {
+      height: 300px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      grid-column: 1 / span 2;
+    }
+  
+    .img-div {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .header-image {
+      position: static;
+      left: 0;
+    }
+  
+    /********************** Companies Section *********************/
+  
+    .companies {
+      height: 100px;
+      padding: 0;
+      width: 100vw;
+      align-items: center;
+      justify-content: space-around;
+      box-sizing: border-box;
+    }
+  
+    .companies > a {
+      font-size: 20px;
+    }
+  
+    /********************** API Section *********************/
+    .api {
+      width: 100vw;
+      text-align: center;
+      box-sizing: border-box;
+    }
+  
+    .card:last-child::after {
+      display: none;
+    }
+  
+    /********************** Blog Section *********************/
+  
+    .blog-heading {
+      background-color: #f1f1f1;
+      padding: 60px 60px 0 60px;
+      position: relative;
+      width: 100vw;
+      box-sizing: border-box;
+    }
+  
+    .blog-cards {
+      justify-content: center;
+      padding: 10px;
+      width: 100vw;
+      box-sizing: border-box;
+    }
+  
+    /********************** FAQ Section *********************/
+  
+    .faq-section {
+      align-items: center;
+      justify-content: flex-end;
+      height: auto;
+      width: 100vw;
+      box-sizing: border-box;
+    }
+  
+    /********************** Download Section *********************/
+  
+    .download-section {
+      padding: 120px 60px;
+      background-color: #f1f1f1;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      width: 100vw;
+      box-sizing: border-box;
+    }
+  
+    /********************** Footer Section *********************/
+  
+    .footer-section {
+      padding: 60px 60px;
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      width: 100vw;
+    }
+  
+    .footer-left {
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    header {
+      padding: 30px 20px 0 20px;
+    }
+  
+    .header-text {
+      padding: 0 20px;
+      text-align: center;
+    }
+  
+    h2 {
+      font-size: 30px;
+    }
+  
+    .header-image {
+      position: static;
+      width: 100%;
+    }
+  
+    /********************** Companies Section *********************/
+  
+    .companies {
+      flex-direction: column;
+      height: auto;
+      padding: 20px 0;
+    }
+  
+    .companies > a {
+      font-size: 22px;
+    }
+  
+    /********************** Blog Section *********************/
+  
+    .blog-card {
+      width: 95%;
+    }
+  
+    .blog-image > img {
+      width: 100%;
+      height: 287px;
+    }
+  
+    .blog-content {
+      width: 70%;
+      box-sizing: border-box;
+      padding: 30px;
+    }
+  
+    img[alt="first"] {
+      left: 240px;
+    }
+  
+    img[alt="second"] {
+      left: 240px;
+    }
+  
+    .blog-author-1 {
+      left: 300px;
+    }
+  
+    .blog-author-2 {
+      left: 300px;
+    }
+  
+    /********************** FAQ Section *********************/
+  
+    .faq-section {
+      padding: 0;
+    }
+  
+    .faq-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
